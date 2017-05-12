@@ -1,0 +1,30 @@
+{
+  "name": "labyrinth",
+  "version": "0.0.0",
+  "description": "Maze game",
+  "license": "MIT",
+  "author": "Brandon Semilla (https://github.com/semibran)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/semibran/labyrinth.git"
+  },
+  "scripts": {
+    "watch": "watchify client/index.js -o client/build.js -v"
+  },
+  "dependencies": {
+    "array": "github:semibran/array#v0.1.0",
+    "bel": "^4.6.1",
+    "directions": "github:semibran/directions#v1.0.0",
+    "dungeon": "^0.1.0",
+    "grid": "github:semibran/grid#v1.0.0",
+    "keys": "github:semibran/keys#v1.0.0",
+    "maze": "github:semibran/maze#v1.0.0",
+    "random": "github:semibran/random#v1.0.0",
+    "server": "github:semibran/server#v1.0.0",
+    "socket.io": "^2.0.1",
+    "vector2d": "github:semibran/vector2d#v1.0.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.9.0"
+  }
+}
